@@ -35,7 +35,7 @@ def main():
         if running:
             display.fill((0, 0, 0))
             NewsFeed.draw(0,250,700,500,display)
-            DisplayMessage.draw(0,0,1080,1920,display,"Hello, Joe")
+            DisplayMessage.draw(0,0,1080,1920,display,"Hello, Joe!")
             Weather.draw(700, 0, 380, 600, display)
             Time.draw(0, 0, 400, 600, display)
             DailyQuote.draw(0, 1920-200, 200, 200, display)
