@@ -19,6 +19,6 @@ def __get_headlines(page):
             title=curr.split(">")[1]
             title = title.replace("&#x27;","'").replace("&amp;","&").strip()
             if not news_storage.__contains__(title):
-                if len(title.split(" ")) < 10 and len(title.split(" ")) > 5:
+                if len(title.split(" ")) < 8 and len(title.split(" ")) > 5:
                     news_storage+=title+"\n"
     IO.write("data/news", news_storage)
