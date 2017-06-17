@@ -1,5 +1,5 @@
 import pygame as pg
-import IO, Weather, Time, DailyQuote, DisplayMessage, NewsFeed, WeatherData, NewsData
+import IO, Weather, Time, DailyQuote, DisplayMessage, NewsFeed, WeatherData, NewsData, CalendarData, Calendar
 from multiprocessing import Process
 from pygame.locals import *
 
@@ -14,6 +14,7 @@ def get_data():
     while IO.exists("data/running"):
         WeatherData.get_data()
         NewsData.get_data()
+        CalendarData.get_data()
 
 
 def main():
@@ -32,6 +33,7 @@ def main():
                     display = pg.display.set_mode((1080, 1920))
         display.fill((0, 0, 0))
         NewsFeed.draw(0,250,700,500,display)
+        Calendar.draw(0,800,700,700, display)
         DisplayMessage.draw(0,0,1080,1920,display,"Hello, Joe")
         Weather.draw(700, 0, 380, 600, display)
         Time.draw(0, 0, 400, 600, display)

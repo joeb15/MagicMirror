@@ -2,9 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62fa4710-e5b9-4f0d-8c1c-e8994a434061" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Calendar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalendarData.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client_secret.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/running" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsData.py" afterPath="$PROJECT_DIR$/NewsData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/news" afterPath="$PROJECT_DIR$/data/news" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day0/humidity" afterPath="$PROJECT_DIR$/data/weather/day0/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day0/wind" afterPath="$PROJECT_DIR$/data/weather/day0/wind" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day1/dayotw" afterPath="$PROJECT_DIR$/data/weather/day1/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day1/hi" afterPath="$PROJECT_DIR$/data/weather/day1/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day1/humidity" afterPath="$PROJECT_DIR$/data/weather/day1/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day1/lo" afterPath="$PROJECT_DIR$/data/weather/day1/lo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day10/dayotw" afterPath="$PROJECT_DIR$/data/weather/day10/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day10/hi" afterPath="$PROJECT_DIR$/data/weather/day10/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day10/humidity" afterPath="$PROJECT_DIR$/data/weather/day10/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day11/dayotw" afterPath="$PROJECT_DIR$/data/weather/day11/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day11/hi" afterPath="$PROJECT_DIR$/data/weather/day11/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day11/humidity" afterPath="$PROJECT_DIR$/data/weather/day11/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day11/lo" afterPath="$PROJECT_DIR$/data/weather/day11/lo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day11/wind" afterPath="$PROJECT_DIR$/data/weather/day11/wind" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day12/dayotw" afterPath="$PROJECT_DIR$/data/weather/day12/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day12/hi" afterPath="$PROJECT_DIR$/data/weather/day12/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day12/humidity" afterPath="$PROJECT_DIR$/data/weather/day12/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day13/dayotw" afterPath="$PROJECT_DIR$/data/weather/day13/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day13/hi" afterPath="$PROJECT_DIR$/data/weather/day13/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day13/humidity" afterPath="$PROJECT_DIR$/data/weather/day13/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day13/lo" afterPath="$PROJECT_DIR$/data/weather/day13/lo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day14/dayotw" afterPath="$PROJECT_DIR$/data/weather/day14/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day14/hi" afterPath="$PROJECT_DIR$/data/weather/day14/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day14/humidity" afterPath="$PROJECT_DIR$/data/weather/day14/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day14/lo" afterPath="$PROJECT_DIR$/data/weather/day14/lo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day2/dayotw" afterPath="$PROJECT_DIR$/data/weather/day2/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day2/hi" afterPath="$PROJECT_DIR$/data/weather/day2/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day2/wind" afterPath="$PROJECT_DIR$/data/weather/day2/wind" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day3/dayotw" afterPath="$PROJECT_DIR$/data/weather/day3/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day3/hi" afterPath="$PROJECT_DIR$/data/weather/day3/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day3/lo" afterPath="$PROJECT_DIR$/data/weather/day3/lo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day3/wind" afterPath="$PROJECT_DIR$/data/weather/day3/wind" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day4/dayotw" afterPath="$PROJECT_DIR$/data/weather/day4/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day4/hi" afterPath="$PROJECT_DIR$/data/weather/day4/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day4/humidity" afterPath="$PROJECT_DIR$/data/weather/day4/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day4/wind" afterPath="$PROJECT_DIR$/data/weather/day4/wind" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day5/dayotw" afterPath="$PROJECT_DIR$/data/weather/day5/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day5/hi" afterPath="$PROJECT_DIR$/data/weather/day5/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day5/humidity" afterPath="$PROJECT_DIR$/data/weather/day5/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day5/wind" afterPath="$PROJECT_DIR$/data/weather/day5/wind" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day6/dayotw" afterPath="$PROJECT_DIR$/data/weather/day6/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day6/hi" afterPath="$PROJECT_DIR$/data/weather/day6/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day6/humidity" afterPath="$PROJECT_DIR$/data/weather/day6/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day6/lo" afterPath="$PROJECT_DIR$/data/weather/day6/lo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day6/wind" afterPath="$PROJECT_DIR$/data/weather/day6/wind" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day7/dayotw" afterPath="$PROJECT_DIR$/data/weather/day7/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day7/hi" afterPath="$PROJECT_DIR$/data/weather/day7/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day7/humidity" afterPath="$PROJECT_DIR$/data/weather/day7/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day7/wind" afterPath="$PROJECT_DIR$/data/weather/day7/wind" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day8/dayotw" afterPath="$PROJECT_DIR$/data/weather/day8/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day8/hi" afterPath="$PROJECT_DIR$/data/weather/day8/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day8/humidity" afterPath="$PROJECT_DIR$/data/weather/day8/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day8/wind" afterPath="$PROJECT_DIR$/data/weather/day8/wind" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day9/dayotw" afterPath="$PROJECT_DIR$/data/weather/day9/dayotw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day9/hi" afterPath="$PROJECT_DIR$/data/weather/day9/hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day9/humidity" afterPath="$PROJECT_DIR$/data/weather/day9/humidity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day9/lo" afterPath="$PROJECT_DIR$/data/weather/day9/lo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/temp" afterPath="$PROJECT_DIR$/data/weather/temp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +78,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/magicmirror$Main.coverage" NAME="Main Coverage Results" MODIFIED="1497562306761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MagicMirror$Main.coverage" NAME="Main Coverage Results" MODIFIED="1497657538185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -22,8 +86,8 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="34" column="63" lean-forward="true" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+            <state relative-caret-position="945">
+              <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -31,12 +95,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsData.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Calendar.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Calendar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="189">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalendarData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="73" column="24" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +130,8 @@
       <file leaf-file-name="NewsFeed.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsFeed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="864">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="36" selection-end-column="53" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -63,23 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherData.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeatherData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2052">
-              <caret line="77" column="22" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Weather.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Weather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="34" column="70" lean-forward="false" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+            <state relative-caret-position="405">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -112,8 +186,12 @@
         <option value="$PROJECT_DIR$/IO.py" />
         <option value="$PROJECT_DIR$/data/NewsData.py" />
         <option value="$PROJECT_DIR$/NewsFeed.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/NewsData.py" />
+        <option value="$PROJECT_DIR$/calendar_test.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/data/events" />
+        <option value="$PROJECT_DIR$/CalendarData.py" />
+        <option value="$PROJECT_DIR$/Calendar.py" />
       </list>
     </option>
   </component>
@@ -148,21 +226,35 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magicmirror" />
+              <option name="myItemId" value="MagicMirror" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magicmirror" />
+              <option name="myItemId" value="MagicMirror" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magicmirror" />
+              <option name="myItemId" value="MagicMirror" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magicmirror" />
+              <option name="myItemId" value="MagicMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicMirror" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -180,6 +272,9 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/joe/Projects/magicmirror/Weather.py" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
@@ -394,22 +489,30 @@
       <option name="project" value="LOCAL" />
       <updated>1497591318464</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Reduce Length of News Headings">
+      <created>1497635482581</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1497635482581</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2925" height="2102" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11897436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33021322" sideWeight="0.41970804" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30077922" sideWeight="0.580292" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30052084" sideWeight="0.580292" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11897436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39948052" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -419,7 +522,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -432,67 +534,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Commit" />
     <MESSAGE value="Allow for remote kill of screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Allow for remote kill of screen" />
+    <MESSAGE value="Reduce Length of News Headings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reduce Length of News Headings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NewsFeed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="77" column="22" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Weather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="70" lean-forward="false" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="20" column="65" lean-forward="false" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DisplayMessage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DailyQuote.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -657,6 +706,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="238" column="4" lean-forward="false" selection-start-line="238" selection-start-column="4" selection-end-line="258" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -690,6 +740,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="763">
           <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,6 +765,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="757">
           <caret line="240" column="17" lean-forward="true" selection-start-line="240" selection-start-column="17" selection-end-line="240" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -773,18 +825,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Weather.py">
+    <entry file="file://$PROJECT_DIR$/data/news">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="70" lean-forward="false" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/calendar">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendar_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="61" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeatherData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="77" column="22" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        <state relative-caret-position="1206">
+          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -799,27 +874,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NewsFeed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/news">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="63" lean-forward="true" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+        <state relative-caret-position="864">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="36" selection-end-column="53" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -828,8 +894,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NewsData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="189">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalendarData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="73" column="24" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/events">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding />
         </state>
       </provider>
