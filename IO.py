@@ -30,6 +30,8 @@ def delete(file_name):
 
 
 def read(file_name):
+    if not exists(file_name):
+        return ""
     file = codecs.open(file_name, 'r', encoding='utf8')
     temp = file.read()
     if temp.endswith("\n::END::"):
