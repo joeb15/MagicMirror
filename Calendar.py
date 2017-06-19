@@ -1,5 +1,6 @@
-import IO
 import pygame as pg
+
+import IO
 
 
 def draw(x, y, w, h, display):
@@ -13,6 +14,10 @@ def draw(x, y, w, h, display):
         days = parts[0]
         title = parts[1]
         if int(days) < 15:
+            if days == "0":
+                days = "Today"
+            elif days == "1":
+                days = "Tomorrow"
             __draw_text(display, 25, (255, 255, 255), x, y + 30 * i, title)
             __draw_text(display, 25, (255, 255, 255), x + 400, y + 30 * i, days)
 
