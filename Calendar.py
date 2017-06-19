@@ -1,4 +1,5 @@
-import pygame as pg, IO
+import IO
+import pygame as pg
 
 
 def draw(x, y, w, h, display):
@@ -11,8 +12,9 @@ def draw(x, y, w, h, display):
         parts = event.split(":")
         days = parts[0]
         title = parts[1]
-        __draw_text(display, 25, (255,255,255), x, y+30*i, days + "|" + title)
-    print("done")
+        if int(days) < 15:
+            __draw_text(display, 25, (255, 255, 255), x, y + 30 * i, title)
+            __draw_text(display, 25, (255, 255, 255), x + 400, y + 30 * i, days)
 
 
 def __draw_text(display, size, color, x, y, text):

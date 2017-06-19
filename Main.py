@@ -1,7 +1,18 @@
-import pygame as pg
-import IO, Weather, Time, DailyQuote, DisplayMessage, NewsFeed, WeatherData, NewsData, CalendarData, Calendar
 from multiprocessing import Process
+
+import pygame as pg
 from pygame.locals import *
+
+import Calendar
+import CalendarData
+import DailyQuote
+import DisplayMessage
+import IO
+import NewsData
+import NewsFeed
+import Time
+import Weather
+import WeatherData
 
 
 def split():
@@ -21,7 +32,7 @@ def main():
     IO.create("data/running")
     pg.init()
     split()
-    display = pg.display.set_mode((1080,1920))
+    display = pg.display.set_mode((1080, 1920), NOFRAME)
     while IO.exists("data/running"):
         for event in pg.event.get():
             if event.type==QUIT:
