@@ -22,7 +22,6 @@ def split():
 def get_data():
     while IO.exists("data/running"):
         WeatherData.get_data()
-        NewsData.get_data()
         CalendarData.get_data()
 
 
