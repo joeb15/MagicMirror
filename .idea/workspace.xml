@@ -3,78 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62fa4710-e5b9-4f0d-8c1c-e8994a434061" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Calendar.py" afterPath="$PROJECT_DIR$/Calendar.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/news" afterPath="$PROJECT_DIR$/data/news" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day0/humidity" afterPath="$PROJECT_DIR$/data/weather/day0/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day0/precip" afterPath="$PROJECT_DIR$/data/weather/day0/precip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day0/wind" afterPath="$PROJECT_DIR$/data/weather/day0/wind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day1/dayotw" afterPath="$PROJECT_DIR$/data/weather/day1/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day1/hi" afterPath="$PROJECT_DIR$/data/weather/day1/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day1/humidity" afterPath="$PROJECT_DIR$/data/weather/day1/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day1/lo" afterPath="$PROJECT_DIR$/data/weather/day1/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day10/dayotw" afterPath="$PROJECT_DIR$/data/weather/day10/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day10/hi" afterPath="$PROJECT_DIR$/data/weather/day10/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day10/humidity" afterPath="$PROJECT_DIR$/data/weather/day10/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day10/lo" afterPath="$PROJECT_DIR$/data/weather/day10/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day10/wind" afterPath="$PROJECT_DIR$/data/weather/day10/wind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day11/dayotw" afterPath="$PROJECT_DIR$/data/weather/day11/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day11/hi" afterPath="$PROJECT_DIR$/data/weather/day11/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day11/humidity" afterPath="$PROJECT_DIR$/data/weather/day11/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day11/lo" afterPath="$PROJECT_DIR$/data/weather/day11/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day11/wind" afterPath="$PROJECT_DIR$/data/weather/day11/wind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day12/dayotw" afterPath="$PROJECT_DIR$/data/weather/day12/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day12/hi" afterPath="$PROJECT_DIR$/data/weather/day12/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day12/humidity" afterPath="$PROJECT_DIR$/data/weather/day12/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day12/lo" afterPath="$PROJECT_DIR$/data/weather/day12/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day13/dayotw" afterPath="$PROJECT_DIR$/data/weather/day13/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day13/hi" afterPath="$PROJECT_DIR$/data/weather/day13/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day13/humidity" afterPath="$PROJECT_DIR$/data/weather/day13/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day13/lo" afterPath="$PROJECT_DIR$/data/weather/day13/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day13/wind" afterPath="$PROJECT_DIR$/data/weather/day13/wind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day14/dayotw" afterPath="$PROJECT_DIR$/data/weather/day14/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day14/hi" afterPath="$PROJECT_DIR$/data/weather/day14/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day14/humidity" afterPath="$PROJECT_DIR$/data/weather/day14/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day14/lo" afterPath="$PROJECT_DIR$/data/weather/day14/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day14/wind" afterPath="$PROJECT_DIR$/data/weather/day14/wind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day2/dayotw" afterPath="$PROJECT_DIR$/data/weather/day2/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day2/hi" afterPath="$PROJECT_DIR$/data/weather/day2/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day2/humidity" afterPath="$PROJECT_DIR$/data/weather/day2/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day2/lo" afterPath="$PROJECT_DIR$/data/weather/day2/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day3/dayotw" afterPath="$PROJECT_DIR$/data/weather/day3/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day3/hi" afterPath="$PROJECT_DIR$/data/weather/day3/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day3/humidity" afterPath="$PROJECT_DIR$/data/weather/day3/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day3/wind" afterPath="$PROJECT_DIR$/data/weather/day3/wind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day4/dayotw" afterPath="$PROJECT_DIR$/data/weather/day4/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day4/hi" afterPath="$PROJECT_DIR$/data/weather/day4/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day4/humidity" afterPath="$PROJECT_DIR$/data/weather/day4/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day4/lo" afterPath="$PROJECT_DIR$/data/weather/day4/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day4/wind" afterPath="$PROJECT_DIR$/data/weather/day4/wind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day5/dayotw" afterPath="$PROJECT_DIR$/data/weather/day5/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day5/hi" afterPath="$PROJECT_DIR$/data/weather/day5/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day5/humidity" afterPath="$PROJECT_DIR$/data/weather/day5/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day5/lo" afterPath="$PROJECT_DIR$/data/weather/day5/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day5/wind" afterPath="$PROJECT_DIR$/data/weather/day5/wind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day6/dayotw" afterPath="$PROJECT_DIR$/data/weather/day6/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day6/hi" afterPath="$PROJECT_DIR$/data/weather/day6/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day6/humidity" afterPath="$PROJECT_DIR$/data/weather/day6/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day6/lo" afterPath="$PROJECT_DIR$/data/weather/day6/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day6/wind" afterPath="$PROJECT_DIR$/data/weather/day6/wind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day7/dayotw" afterPath="$PROJECT_DIR$/data/weather/day7/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day7/hi" afterPath="$PROJECT_DIR$/data/weather/day7/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day7/lo" afterPath="$PROJECT_DIR$/data/weather/day7/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day7/wind" afterPath="$PROJECT_DIR$/data/weather/day7/wind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day8/dayotw" afterPath="$PROJECT_DIR$/data/weather/day8/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day8/hi" afterPath="$PROJECT_DIR$/data/weather/day8/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day8/humidity" afterPath="$PROJECT_DIR$/data/weather/day8/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day8/lo" afterPath="$PROJECT_DIR$/data/weather/day8/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day9/dayotw" afterPath="$PROJECT_DIR$/data/weather/day9/dayotw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day9/hi" afterPath="$PROJECT_DIR$/data/weather/day9/hi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day9/humidity" afterPath="$PROJECT_DIR$/data/weather/day9/humidity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day9/lo" afterPath="$PROJECT_DIR$/data/weather/day9/lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/day9/wind" afterPath="$PROJECT_DIR$/data/weather/day9/wind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/sunset" afterPath="$PROJECT_DIR$/data/weather/sunset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/temp" afterPath="$PROJECT_DIR$/data/weather/temp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/weather/weather" afterPath="$PROJECT_DIR$/data/weather/weather" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsData.py" afterPath="$PROJECT_DIR$/NewsData.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,23 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calendar.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Calendar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calendar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="486">
+              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsData.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewsData.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NewsData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="459">
+              <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -202,7 +129,6 @@
         <option value="$PROJECT_DIR$/data/weather/day0/wind" />
         <option value="$PROJECT_DIR$/data/NewsData.py" />
         <option value="$PROJECT_DIR$/NewsFeed.py" />
-        <option value="$PROJECT_DIR$/NewsData.py" />
         <option value="$PROJECT_DIR$/calendar_test.py" />
         <option value="$PROJECT_DIR$/data/events" />
         <option value="$PROJECT_DIR$/CalendarData.py" />
@@ -210,6 +136,7 @@
         <option value="$PROJECT_DIR$/IO.py" />
         <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/Calendar.py" />
+        <option value="$PROJECT_DIR$/NewsData.py" />
       </list>
     </option>
   </component>
@@ -542,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497841521944</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Calendar Day Formatting">
+      <created>1497841779118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1497841779118</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -584,7 +518,8 @@
     <MESSAGE value="Calendar Update" />
     <MESSAGE value="IO Fix" />
     <MESSAGE value="Start with NOFRAME enabled&#10;Basic work done towards calendar formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start with NOFRAME enabled&#10;Basic work done towards calendar formatting" />
+    <MESSAGE value="Calendar Day Formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calendar Day Formatting" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -899,14 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CalendarData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -953,11 +880,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calendar.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsData.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
