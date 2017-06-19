@@ -8,8 +8,6 @@ import CalendarData
 import DailyQuote
 import DisplayMessage
 import IO
-import NewsData
-import NewsFeed
 import Time
 import Weather
 import WeatherData
@@ -43,8 +41,7 @@ def main():
                 if event.key == K_EQUALS:
                     display = pg.display.set_mode((1080, 1920))
         display.fill((0, 0, 0))
-        NewsFeed.draw(0,250,700,500,display)
-        Calendar.draw(0,800,700,700, display)
+        Calendar.draw(0, 250, 700, 700, display)
         DisplayMessage.draw(0,0,1080,1920,display,"Hello, Joe")
         Weather.draw(700, 0, 380, 600, display)
         Time.draw(0, 0, 400, 600, display)
