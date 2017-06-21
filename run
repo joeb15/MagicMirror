@@ -1,3 +1,45 @@
-#!/bin/sh
+#!/bin/bash
 
-python Main.py
+###################################################
+# start bluetooth services if not already running #
+###################################################
+
+trap "sudo rm -f /home/pi/MagicMirror/data/running" 2
+
+if [ -d /opt/bt-speaker ]
+then
+        echo "Bluetooth services previously initialized [CREDIT: LukasJapan]"
+else
+        echo "Initializing Bluetooth services [CREDIT: LukasJapan]"
+        sudo curl -s https://raw.githubusercontent.com/lukasjapan/bt-speaker/master/install.sh | sudo bash
+fi
+
+#########################################
+# delete previous magic mirror versions #
+#########################################
+
+cd
+rm -rf MagicMirror
+
+###########################################
+# update to newer version of magic mirror #
+###########################################
+
+git clone https://github.com/joeb15/MagicMirror
+
+####################
+# start the mirror #
+####################
+
+cd MagicMirror
+
+echo "/--------------------------\\"
+echo "| # ### ####   # ### ####  |"
+echo "| ##   #    #  ##   #    # |"
+echo "| #    #    #  #    #    # |"
+echo "| #    #    #  #    #    # |"
+echo "| #    #    #  #    #    # |"
+echo "| #    #    #  #    #    # |"
+echo "\\--------------------------/"
+
+sudo python Main.py

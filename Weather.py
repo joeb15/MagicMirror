@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
-import pygame as pg, IO
+import IO
+import pygame as pg
 
-rain_small = pg.transform.scale(pg.image.load("images/raindrop.png"), (30,30))
+rain_small = pg.transform.scale(pg.image.load("images/rainy.png"), (30, 30))
 sun_small = pg.transform.scale(pg.image.load("images/sunny.png"), (30,30))
 
 weather_image_scale=(150,150)
@@ -21,7 +22,8 @@ def draw(x, y, w, h, display):
     temperature = u'°'
     __draw_text(display, 250, (255, 255, 255), x, y, temp_stored + temperature)
 
-    if weather_stored.__contains__("Fair") or weather_stored.__contains__("Sun"):
+    if weather_stored.__contains__("Fair") or weather_stored.__contains__("Sun") or weather_stored.__contains__(
+            "Clear"):
         weather_image=sunny
     elif weather_stored.__contains__("Cloud"):
         weather_image=cloudy

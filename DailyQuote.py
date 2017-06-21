@@ -11,7 +11,7 @@ def draw(x, y, w, h, display):
     __get_quote()
     __draw_quote_bubble(display, x, y, w, h)
     __draw_text(display, 35, (255, 255, 255), x + w + 100, y+h - 125, quote_stored, 750, True)
-    __draw_text(display, 35, (255, 255, 255), x + w + 100, y+h-60, person_stored, 750, True)
+    __draw_text(display, 35, (255, 255, 255), x + w + 100, y + h - 75, person_stored, 750, True)
     display.blit(dariella_torres, (x, y, w, h))
 
 
@@ -43,6 +43,23 @@ def __draw_quote_bubble(display, x, y, w, h):
     pg.draw.rect(display, (255, 255, 255), (l, t, w2, h2))
     pg.draw.rect(display, (0, 0, 0), (l + thickness, t + thickness, w2 - 2*thickness, h2 - 2*thickness))
 
+    """to horse part"""
+    pg.draw.rect(display, (0, 0, 0), (l, t + h2 / 2 - corner_size, thickness, corner_size * 2))
+    pg.draw.circle(display, (255, 255, 255), (int(l - corner_size), int(t + h2 / 2 - corner_size)),
+                   corner_size + thickness)
+    pg.draw.circle(display, (255, 255, 255), (int(l - corner_size), int(t + h2 / 2 + corner_size)),
+                   corner_size + thickness)
+    pg.draw.circle(display, (0, 0, 0), (int(l - corner_size), int(t + h2 / 2 - corner_size)), corner_size)
+    pg.draw.circle(display, (0, 0, 0), (int(l - corner_size), int(t + h2 / 2 + corner_size)), corner_size)
+    pg.draw.rect(display, (0, 0, 0), (
+    l - 2 * corner_size - thickness, t + h2 / 2 - corner_size * 2 - thickness, corner_size * 2 + thickness,
+    corner_size + thickness))
+    pg.draw.rect(display, (0, 0, 0), (
+    l - 2 * corner_size - thickness, t + h2 / 2 + corner_size, corner_size * 2 + thickness, corner_size + thickness))
+    pg.draw.rect(display, (0, 0, 0), (
+    l - 2 * corner_size - thickness, t + h2 / 2 - corner_size * 2 - thickness, corner_size + thickness,
+    4 * corner_size + 2 * thickness))
+
     """top left corner"""
     pg.draw.rect(display, (0, 0, 0), (l, t, corner_size, corner_size))
     pg.draw.circle(display, (255, 255, 255), (int(l + corner_size), int(t + corner_size)), corner_size)
@@ -71,16 +88,6 @@ def __draw_quote_bubble(display, x, y, w, h):
     pg.draw.rect(display, (0, 0, 0), (l + corner_size, t + h2 - 2 * corner_size - thickness, corner_size * 2, corner_size * 2))
     pg.draw.rect(display, (0, 0, 0), (l + thickness, t + h2 - 3 * corner_size, corner_size * 2, corner_size * 2))
 
-    corner_size*=2
-    """to horse part"""
-    pg.draw.rect(display, (0,0,0), (l, t+h2/2-corner_size, thickness, corner_size*2))
-    pg.draw.circle(display, (255,255,255), (int(l-corner_size), int(t+h2/2-corner_size)), corner_size+thickness)
-    pg.draw.circle(display, (255,255,255), (int(l-corner_size), int(t+h2/2+corner_size)), corner_size+thickness)
-    pg.draw.circle(display, (0,0,0), (int(l-corner_size), int(t+h2/2-corner_size)), corner_size)
-    pg.draw.circle(display, (0,0,0), (int(l-corner_size), int(t+h2/2+corner_size)), corner_size)
-    pg.draw.rect(display, (0,0,0), (l - 2*corner_size-thickness, t+h2/2-corner_size*2-thickness, corner_size*2+thickness, corner_size+thickness))
-    pg.draw.rect(display, (0,0,0), (l - 2*corner_size-thickness, t+h2/2+corner_size, corner_size*2+thickness, corner_size+thickness))
-    pg.draw.rect(display, (0,0,0), (l - 2*corner_size-thickness, t+h2/2-corner_size*2-thickness, corner_size+thickness, 4*corner_size+2*thickness))
     """
     pg.draw.rect(display, (0, 0, 0), (l - corner_size+thickness, t + h2/2 - corner_size, corner_size, corner_size))
     pg.draw.circle(display, (255, 255, 255), (int(l - corner_size), int(t + h2/2 - corner_size)), corner_size+thickness)
