@@ -20,20 +20,20 @@ def split():
 
 
 def get_data():
-    while IO.exists("data/running"):
+    while IO.exists("/home/pi/MagicMirror/data/running"):
         WeatherData.get_data()
         CalendarData.get_data()
 
 
 def main():
-    IO.create("data/running")
+    IO.create("/home/pi/MagicMirror/data/running")
     pg.init()
     split()
     display = pg.display.set_mode((1080, 1920), NOFRAME)
-    while IO.exists("data/running"):
+    while IO.exists("/home/pi/MagicMirror/data/running"):
         for event in pg.event.get():
             if event.type==QUIT:
-                IO.delete("data/running")
+                IO.delete("/home/pi/MagicMirror/data/running")
             elif event.type == KEYDOWN:
                 if event.key == K_MINUS:
                     display = pg.display.set_mode((1080, 1920), NOFRAME)
