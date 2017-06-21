@@ -41,5 +41,5 @@ echo "| #    #    #  #    #    # |"
 echo "| #    #    #  #    #    # |"
 echo "| #    #    #  #    #    # |"
 echo "\\--------------------------/"
-
+echo "Press <Ctrl> + C to turn off display"
 sudo python Main.py
