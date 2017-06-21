@@ -21,10 +21,11 @@ def draw(x, y, w, h, display):
             else:
                 days = "in " + days + "days"
             __draw_text(display, 25, (255, 255, 255), x, y + 30 * i, title)
-            __draw_text(display, 25, (255, 255, 255), x + 400 - sizeString(days), y + 30 * i, days)
+            __draw_text(display, 25, (255, 255, 255), x + 400 - sizeString(days, 25), y + 30 * i, days)
 
 
-def sizeString(text, font):
+def sizeString(text, size):
+    font = pg.font.SysFont('times new roman', size)
     text_image = font.render(str(text), False, (1, 1, 1))
     return text_image.get_width()
 
