@@ -19,7 +19,7 @@ def draw(x, y, w, h, display):
             elif days == "1":
                 days = "Tomorrow"
             else:
-                days = "in " + days + "days"
+                days = "in " + days + " days"
             __draw_text(display, 25, (255, 255, 255), x, y + 30 * i, title)
             __draw_text(display, 25, (255, 255, 255), x + 400 - sizeString(days, 25), y + 30 * i, days)
 
