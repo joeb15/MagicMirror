@@ -38,7 +38,7 @@ def main():
                 if event.key == K_MINUS:
                     display = pg.display.set_mode((1080, 1920), NOFRAME)
                 if event.key == K_EQUALS:
-                    display = pg.display.set_mode((1080, 1920))
+                    display = pg.display.set_mode((100, 100))
         display.fill((0, 0, 0))
         Calendar.draw(0, 250, 700, 700, display)
         DisplayMessage.draw(0,0,1080,1920,display,"Hello, Joe")
