@@ -33,14 +33,6 @@ git clone https://github.com/joeb15/MagicMirror
 
 cd MagicMirror
 
-echo "######################################################################"
-echo "#  __   __                        __   __                            #"
-echo "#  |    |    ___    ___. `   ___  |    |  ` .___  .___    __.  .___  #"
-echo "#  |\  /|   /   ` .'   ` | .'   ` |\  /|  | /   \ /   \ .'   \ /   \ #"
-echo "#  | \/ |  |    | |    | | |      | \/ |  | |   ' |   ' |    | |   ' #"
-echo "#  /    /  `.__/|  `---| /  `._.' /    /  / /     /      `._.' /     #"
-echo "#                  \___/                                             #"
-echo "######################################################################"
-echo "Press <Ctrl> + C to turn off display"
+cat MagicMirrorText
 
 sudo python Main.py
