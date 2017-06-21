@@ -29,14 +29,14 @@ def main():
     IO.create("/home/pi/MagicMirror/data/running")
     pg.init()
     split()
-    display = pg.display.set_mode((1080, 1920), NOFRAME)
+    display = pg.display.set_mode((1080, 1920), FULLSCREEN)
     while IO.exists("/home/pi/MagicMirror/data/running"):
         for event in pg.event.get():
             if event.type==QUIT:
                 IO.delete("/home/pi/MagicMirror/data/running")
             elif event.type == KEYDOWN:
                 if event.key == K_MINUS:
-                    display = pg.display.set_mode((1080, 1920), NOFRAME)
+                    display = pg.display.set_mode((1080, 1920), FULLSCREEN)
                 if event.key == K_EQUALS:
                     display = pg.display.set_mode((100, 100))
         display.fill((0, 0, 0))
