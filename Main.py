@@ -1,3 +1,4 @@
+import time
 from multiprocessing import Process
 
 import pygame as pg
@@ -19,10 +20,19 @@ def split():
     p.start()
 
 
+def sleep(num):
+    for i in range(num):
+        if not IO.exists("/home/pi/MagicMirror/data/running"):
+            break;
+        time.sleep(2)
+
+
 def get_data():
     while IO.exists("/home/pi/MagicMirror/data/running"):
         WeatherData.get_data()
         CalendarData.get_data()
+        # sleep for 60 seconds @ 2 sec intervals making sure running exists
+        sleep(30)
 
 
 def main():
@@ -46,6 +56,7 @@ def main():
         Time.draw(0, 0, 400, 600, display)
         DailyQuote.draw(0, 1920-200, 200, 200, display)
         pg.display.update()
+        sleep(2)
     p.join()
     pg.quit()
 
