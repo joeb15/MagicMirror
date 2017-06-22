@@ -13,15 +13,16 @@ def draw(x, y, w, h, display):
         parts = event.split(":")
         days = parts[0]
         title = parts[1]
-        if int(days) < 15:
+        if i < 7:
             if days == "0":
                 days = "Today"
             elif days == "1":
                 days = "Tomorrow"
             else:
-                days = "in " + days + " days"
-            __draw_text(display, 25, (255, 255, 255), x, y + 30 * i, title)
-            __draw_text(display, 25, (255, 255, 255), x + 400 - sizeString(days, 25), y + 30 * i, days)
+                days = days + " days"
+            col = 255 - i * i * 5
+            __draw_text(display, 30, (col, col, col), x, y + 30 * i, title)
+            __draw_text(display, 30, (col, col, col), x + 400 - sizeString(days, 25), y + 30 * i, days)
 
 
 def sizeString(text, size):

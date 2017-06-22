@@ -13,6 +13,8 @@ import Time
 import Weather
 import WeatherData
 
+path = ""
+
 
 def split():
     global p
@@ -22,13 +24,13 @@ def split():
 
 def sleep(num):
     for i in range(num):
-        if not IO.exists("/home/pi/MagicMirror/data/running"):
+        if not IO.exists(path):
             break;
         time.sleep(4)
 
 
 def get_data():
-    while IO.exists("/home/pi/MagicMirror/data/running"):
+    while IO.exists(path):
         WeatherData.get_data()
         CalendarData.get_data()
         # sleep for 30 seconds @ 4 sec intervals making sure running exists
@@ -36,19 +38,31 @@ def get_data():
 
 
 def main():
-    IO.create("/home/pi/MagicMirror/data/running")
+    global path
+    if IO.exists("/home/pi/"):
+        path = "/home/pi/MagicMirror/data/running"
+    else:
+        path = "MagicMirror/data/running"
+    IO.create(path)
     pg.init()
     split()
-    display = pg.display.set_mode((1080, 1920), FULLSCREEN)
-    while IO.exists("/home/pi/MagicMirror/data/running"):
+    if path.__contains__("pi"):
+        display = pg.display.set_mode((1080, 1920), FULLSCREEN)
+    else:
+        display = pg.display.set_mode((1080, 1920))
+    while IO.exists(path):
         for event in pg.event.get():
             if event.type==QUIT:
-                IO.delete("/home/pi/MagicMirror/data/running")
+                IO.delete(path)
             elif event.type == KEYDOWN:
                 if event.key == K_MINUS:
                     display = pg.display.set_mode((1080, 1920), FULLSCREEN)
                 if event.key == K_EQUALS:
-                    display = pg.display.set_mode((100, 100), RESIZABLE)
+                    display = pg.display.set_mode((100, 100))
+                if event.key == K_LEFTBRACKET:
+                    display = pg.display.set_mode((1080, 1920))
+                if event.key == K_RIGHTBRACKET:
+                    IO.delete(path)
         display.fill((0, 0, 0))
         Calendar.draw(0, 250, 700, 700, display)
         DisplayMessage.draw(0,0,1080,1920,display,"Hello, Joe")

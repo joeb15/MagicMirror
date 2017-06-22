@@ -1,13 +1,14 @@
 from __future__ import print_function
-import httplib2
-import os, IO
 
+import IO
+import datetime
+import os
+
+import httplib2
 from apiclient import discovery
 from oauth2client import client
 from oauth2client import tools
 from oauth2client.file import Storage
-
-import datetime
 
 __num_days = ['0',]
 
@@ -70,7 +71,9 @@ def get_data():
         stored_events = '-1:No upcoming events found.'
     for event in events:
         start = event['start'].get('dateTime', event['start'].get('date'))
-        stored_events += repr(get_dif(start)) + ":" + event['summary']+"\n"
+        days = get_dif(start)
+        if not stored_events.__contains__(event['summary']):
+            stored_events += repr(days) + ":" + event['summary'] + "\n"
     stored_events.strip()
     IO.write("data/events", stored_events)
 
@@ -79,7 +82,7 @@ def get_dif(start):
     parts = start.split("-")
     year = int(parts[0])
     month = int(parts[1])
-    day = int(parts[2])
+    day = int(parts[2].split("T")[0])
     d1 = datetime.date(year, month, day)
     d2 = datetime.date.today()
     d3 = d1-d2
