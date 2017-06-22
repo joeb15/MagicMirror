@@ -14,19 +14,6 @@ else
         sudo curl -s https://raw.githubusercontent.com/lukasjapan/bt-speaker/master/install.sh | sudo bash
 fi
 
-#########################################
-# delete previous magic mirror versions #
-#########################################
-
-cd
-rm -rf MagicMirror
-
-###########################################
-# update to newer version of magic mirror #
-###########################################
-
-git clone https://github.com/joeb15/MagicMirror
-
 ####################
 # start the mirror #
 ####################
