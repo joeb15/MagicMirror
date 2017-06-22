@@ -24,15 +24,15 @@ def sleep(num):
     for i in range(num):
         if not IO.exists("/home/pi/MagicMirror/data/running"):
             break;
-        time.sleep(2)
+        time.sleep(4)
 
 
 def get_data():
     while IO.exists("/home/pi/MagicMirror/data/running"):
         WeatherData.get_data()
         CalendarData.get_data()
-        # sleep for 60 seconds @ 2 sec intervals making sure running exists
-        sleep(30)
+        # sleep for 30 seconds @ 4 sec intervals making sure running exists
+        sleep(15)
 
 
 def main():
@@ -56,7 +56,7 @@ def main():
         Time.draw(0, 0, 400, 600, display)
         DailyQuote.draw(0, 1920-200, 200, 200, display)
         pg.display.update()
-        sleep(2)
+        sleep(1)
     p.join()
     pg.quit()
 
